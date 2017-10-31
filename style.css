@@ -27,14 +27,6 @@ img {
   height: auto;
 }
 
-@media only screen and (min width: 750px) {
-  .site-container {
-    width: 83%;
-    max-width: 90%;
-    min-width: 80%;
-  }
-}
-
 /* Main Header Section */
 .header {
   height: 18%;
@@ -79,6 +71,7 @@ img {
   text-align: center;
   padding-top: 2em;
   color: #404040;
+
 }
 
 .work-contents {
@@ -88,6 +81,8 @@ img {
   justify-content: space-between;
   align-items: flex-start;
   text-align: left;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .project {
@@ -164,6 +159,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
   .project {
     width: 60%;
