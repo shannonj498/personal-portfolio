@@ -88,7 +88,7 @@ header p {
 .project {
   color: black;
   width: 23%;
-  height: 57%;
+  height: 25em;
   background-color: white;
   padding: 0 3em 0 3em;
   border-radius: 5px;
@@ -128,7 +128,7 @@ header p {
 }
 
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 780px) {
 
   header {
     flex-direction: column;
@@ -148,7 +148,7 @@ header p {
   }
   header h1 {
     font-size: 2.1rem;
-    line-height: 0;
+    line-height: 0.5em;
   }
 
   header p {
@@ -163,9 +163,10 @@ header p {
   }
   .project {
     width: 60%;
-    height: 60%;
+    height: auto;
     margin-top: 3em;
     margin-bottom: 3em;
+    padding-bottom: 1em;
   }
   .project img {
     margin-top: -2em;
