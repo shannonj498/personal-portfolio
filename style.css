@@ -26,6 +26,7 @@ img {
   max-width: 100%;
   width: 100%;
   height: auto;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 /* Main Header Section */
@@ -63,6 +64,117 @@ header p {
   padding-right: 10rem;
   text-align: right;
 }
+
+.header-image{
+  margin: 0 auto;
+  background-image: url("images/header2.jpg");
+  height: 48rem;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  line-height: 4.5rem;
+  text-align: center;
+}
+
+
+
+.name p {
+  font-family: 'Pacifico', cursive;
+  font-size: 5rem;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 20rem;
+}
+
+.des p {
+  font-size: 2.2rem;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Arima Madurai', cursive;
+  animation: type 7s steps(60, end);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@keyframes type{
+  0%{width: 0;}
+  4%{width: 0;}
+  100%{width: 100;}
+}
+
+.arrow {
+  font-size: 3rem;
+  padding-top: 13rem;
+  opacity: 0.3;
+  animation: bounce 2.5s infinite ease;
+  animation-delay: 2s;
+}
+
+@media only screen and (max-width: 750px) {
+  .header-image {
+    height: 35rem;
+    background-size: cover;
+    line-height: 3.3rem;
+  }
+
+  .name p {
+    padding-top: 13rem;
+    font-size: 3rem;
+  }
+
+  .des p {
+    animation: type 1.5s steps(60, end)
+  }
+
+  .arrow {
+    padding-top: 11rem;
+    animation: newbounce 2.5s infinite ease;
+    animation-delay: 1.5s;
+  }
+
+  @keyframes newbounce {
+    0%{padding-top: 11rem;}
+    50%{padding-top: 12rem;}
+    100%{padding-top: 11rem;}
+  }
+}
+
+@keyframes bounce {
+  0%{padding-top: 13rem;}
+  50%{padding-top: 14rem;}
+  100%{padding-top: 13rem;}
+}
+
+/* Skills Section */
+
+.skill-section {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.skillbox {
+  margin: 0.5rem;
+  width: 15rem;
+  height: 10rem;
+  text-align:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  color: white;
+  background: #26375E;
+    box-shadow: 8px 8px 25px #8E8E8E;
+}
+
 
 
 /* Featured Work */
