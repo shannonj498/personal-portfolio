@@ -9,9 +9,28 @@
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/9b9504b18f.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
 </head>
 <body>
-      <script src="app.js"></script>
+      <nav id="navbar">
+        <div class="nav-text">
+          <div class="nav-left">
+            <a href="#" class="logo">Shannon Johnson</a>
+            <span class="logo-text">Web Developer</a>
+          </div>
+          <div class="nav-right">
+            <div class="about">
+              <a href="#about">About</a>
+            </div>
+            <div class="portfolio">
+              <a href="#portfolio">Portfolio</a>
+            </div>
+            <div class="contact">
+              <a href="#">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     <!-- Main header section -->
     <!-- <header>
         <img src="images/logo.png" alt="Shannon Johnson Logo" class="logo">
@@ -21,7 +40,7 @@
         </div>
     </header> -->
     <!-- Main header image -->
-    <div class="header-image">
+    <div class="header-image" id="about">
         <div class="name">
           <p>Shannon Johnson</p>
         </div>
@@ -33,7 +52,8 @@
         </div>
     </div>
 
-    <!-- Skills Section -->
+    <!-- Skills Section
+
     <div class="skill-section">
         <div class="skillbox box1">
           <span>html</span>
@@ -54,52 +74,53 @@
           <span>git</span>
         </div>
     </div>
+  -->
 
     <!-- Featured Work -->
-    <section class="featured-work site-container">
-        <h2>Featured Work</h2>
+    <section class="featured-work site-container" id="portfolio">
+        <h2>Recent Work</h2>
         <div class="work-contents">
+          <!-- Javascript Calculator -->
+          <div class="project">
+              <a href="https://shannonj498.github.io/js-calculator/" target="_blank"><img src="images/calculator.jpg" alt ="JavaScript Calculator Website Snapshot"></a>
+              <a href="https://shannonj498.github.io/js-calculator/" target="_blank"><h3>JavaScript Calculator</h3></a>
+              <p class="description">This was a really fun project as I designed and created all the logic for a basic yet fully functioning JS calculator that's mobile responsive.</p>
+             <p class="tools">HTML5, CSS3, FlexBox, JavaScript, jQuery, Responsive Design</p>
+          </div>
           <!-- Wikipedia Viewer -->
           <div class="project">
             <a href="https://shannonj498.github.io/wiki-viewer/" target="_blank"><img src="images/wiki.jpg" alt="Wikipedia Viewer App Screenshot"></a>
             <a href="https://shannonj498.github.io/wiki-viewer/" target="_blank"><h3>Wikipedia Viewer</h3></a>
-            <p>This app uses Wikipedia's API to generate articles either matching the user's keywords or by clicking a 'random Wiki' button.</p>
+            <p class="description">This app uses Wikipedia's API to generate articles either matching the user's keywords or by clicking a 'random Wiki' button.</p>
             <p class="tools">HTML5, CSS3, FlexBox, JavaScript, jQuery, Wikipedia's API, JSON, ajax, Responsive Design</p>
           </div>
           <!-- Memory matching card game project -->
           <div class="project">
             <a href="https://shannonj498.github.io/memory-matching-game/" target="_blank"><img src="images/memory-game2.jpg" alt="Memory Match Card Game Website Screenshot"></a>
             <a href="https://shannonj498.github.io/memory-matching-game/" target="_blank"><h3>Memory Match</h3></a>
-            <p>A fun and interactive memory matching card game complete with a score panel displaying the user's star rating, number of moves, timer and restart button.</p>
+            <p class="description">A fun and interactive memory matching card game complete with a score panel displaying the user's star rating, number of moves, timer and restart button.</p>
             <p class="tools">HTML5, CSS3, FlexBox, JavaScript, jQuery, Responsive Design</p>
           </div>
           <!-- Pixel art maker project -->
           <div class="project">
             <a href="https://shannonj498.github.io/pixel-art-maker/" target="_blank"><img src="images/pixel.PNG" alt="Pixel Art Maker Website Screenshot"></a>
             <a href="https://shannonj498.github.io/pixel-art-maker/" target="_blank"><h3>Pixel Perfect</h3></a>
-            <p>This app allows users to set the hight and width of a grid and then pick different colors to create pixilated artwork on the click of a cell.</p>
+            <p class="description">This app allows users to set the height and width of a grid and then pick different colors to create pixilated artwork on the click of a cell.</p>
             <p class="tools">HTML5, CSS3, JavaScript, jQuery, Responsive Design</p>
           </div>
           <!-- Simpsons Quote project -->
             <div class="project">
                 <a href="https://codepen.io/ShannonJohnson/full/NamYrw/" target="_blank"><img src="images/quote-machine.jpg" alt ="Simpson's Random Quote Machine"></a>
                 <a href="https://codepen.io/ShannonJohnson/full/NamYrw/" target="_blank"><h3>The Simpsons</h3></a>
-                <p>A 'Simpsons' themed quote machine generating randodm quotes on the click of a button from a third party API.</p>
+                <p class="description">A 'Simpsons' themed quote machine generating random quotes on the click of a button from a third party API.</p>
                <p class="tools">HTML5, CSS3, JavaScript, jQuery, JSON, Responsive Design</p>
             </div>
             <!-- JavaScript documentation project -->
             <div class="project">
                 <a href="https://codepen.io/ShannonJohnson/full/EwmYxv/" target="_blank"><img src="images/technical-doc.jpg" alt ="Technical Documentation Page"></a>
                 <a href="https://codepen.io/ShannonJohnson/full/EwmYxv/" target="_blank"><h3>JS Documentation</h3></a>
-                <p>Fully responsive JavaScript documentation page utilizing a sticky left-side navigation bar.</p>
+                <p class="description">Fully responsive JavaScript documentation page utilizing a sticky left-side navigation bar.</p>
                <p class="tools">HTML5, CSS3, Responsive Design</p>
-            </div>
-            <!-- Flexbox landing page project -->
-            <div class="project">
-                <a href="https://codepen.io/ShannonJohnson/full/OxmLRK/" target="_blank"><img src="images/product-landing.jpg" alt ="Product Landing Page"></a>
-                <a href="https://codepen.io/ShannonJohnson/full/OxmLRK/" target="_blank"><h3>Original Trombones</h3></a>
-                <p>A clean and responsive product landing page built with flexbox.</p>
-               <p class="tools">HTML5, CSS3, FlexBox, Responsive Design</p>
             </div>
         </div>
     <!-- Contact Information -->
@@ -108,6 +129,6 @@
         <p><strong>Email:</strong> Shannonj498@gmail.com</p>
         <p><strong>Location:</strong> Denver, CO</p>
     </footer>
-
+<script src="app.js"></script>
 </body>
 </html>
