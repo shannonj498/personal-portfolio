@@ -32,8 +32,7 @@ img {
   image-rendering: -webkit-optimize-contrast;
 }
 
-/* Navigation */
-
+/* NavBar Section */
 nav {
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.95);
@@ -119,37 +118,7 @@ nav {
   }
 }
 
-
-
 /* Main Header Section */
-header {
-  height: 18%;
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  font-family: helvetica;
-  z-index: 1;
-}
-
-header h1 {
-  font-size: 2.7rem;
-  font-weight: bold;
-  line-height: 0rem;
-  color: #404040;
-}
-
-header p {
-  font-size: 1.2rem;
-  margin-top: -0.2rem;
-  color: #818181;
-}
-
-.header-text {
-  padding-right: 10rem;
-  text-align: right;
-}
 
 .header-image{
   margin: 0 auto;
@@ -161,8 +130,6 @@ header p {
   line-height: 4.5rem;
   text-align: center;
 }
-
-
 
 .name p {
   font-family: 'Pacifico', cursive;
@@ -231,39 +198,8 @@ header p {
   100%{padding-top: 13rem;}
 }
 
-/* Skills Section */
 
-.skill-section {
-  width: 100%;
-  min-width: 100%;
-  max-width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 0.5rem;
-}
-
-.skillbox {
-  margin: 0.5rem;
-  width: 15rem;
-  height: 10rem;
-  text-align:center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Pacifico', cursive;
-  font-size: 2.5rem;
-  color: white;
-  background: #26375E;
-    box-shadow: 8px 8px 25px #8E8E8E;
-}
-
-
-
-/* Featured Work */
+/* Recent Work */
 
 .featured-work {
   margin: 0 auto;
@@ -328,17 +264,86 @@ header p {
 }
 
 /* Contact Info */
+.contact-section {
+  background-image: url("images/footer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 38rem;
+  margin-top: 5rem;
+}
 
 .contact-info {
-  background-color: white;
-  margin-top: 7em;
+  margin-top: 1.5rem;
   padding: 2em 10em;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.contact-box {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D1D1D1;
+  border: 3px solid white;
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.6);
+  transition: border 0.5s, background-color 0.5s, box-shadow 0.5s;
+}
 
+.contact-box:hover {
+  background-color: white;
+  border: 3px solid black;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+}
+
+.contact-box a {
+  text-align: center;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.contact-box a:hover {
+  color: #3C79B2;
+}
+
+.contact-me h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 5rem;
+  margin: 0 auto;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 6rem;
+  margin-bottom: 0;
+}
+
+.location {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  padding-top: 5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Footer Section */
+footer {
+  height: 7rem;
+  text-align: center;
+}
+
+footer p {
+  padding-top: 3.5rem;
+  font-size: 0.9rem;
+}
+
+
+/* Media Queries */
 @media only screen and (max-width: 780px) {
 
   header {
