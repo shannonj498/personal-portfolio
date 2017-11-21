@@ -228,7 +228,7 @@ nav {
   width: 23%;
   height: 25em;
   background-color: white;
-  padding: 0 4em 0 2em;
+  padding: 0 2em 0 2em;
   border-radius: 5px;
   box-shadow: 12px 12px 25px rgba(121, 121, 121, 0.7);
   margin-top: 8em;
@@ -238,6 +238,7 @@ nav {
 }
 
 .project img {
+  width: 14.2rem;
   padding: 1rem;
   background-color: white;
   box-shadow: 8px 8px 25px rgba(80, 80, 80, 0.4);
@@ -399,13 +400,16 @@ footer p {
   .contact-info {
     margin-top: 0.5rem;
     padding: 0;
-    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
 
   .contact-me h1 {
     font-size: 3rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .contact-box {
@@ -413,35 +417,8 @@ footer p {
     width: 5rem;
     border: 2px solid white;
     margin: 0;
-    display: inline-block;
     margin: 0.3rem 1rem;
-  }
-
-  .contact-box a {
-    position: absolute;
     font-size: 0.8rem;
-    padding-top: 2rem;
-  }
-
-  #email a {
-    margin-left: -1.9rem;
-  }
-
-  #linkedin a {
-    margin-left: -1.7rem;
-  }
-
-  #github a {
-    margin-left: -1.5rem;
-  }
-
-  #resume a {
-    margin-left: -2.15rem;
-    font-size: 0.75rem;
-  }
-
-  #twitter a {
-    margin-left: -1.3rem;
   }
 
   .location {
