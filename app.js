@@ -1,4 +1,3 @@
-$("#navbar").hide();
 
   // fade in .navbar
   $(function () {
