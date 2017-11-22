@@ -144,7 +144,7 @@ nav {
   width: 100%;
   margin: 0 auto;
   font-family: 'Arima Madurai', cursive;
-  animation: type 7s steps(60, end);
+  animation: type 8s steps(60, end);
   overflow: hidden;
   white-space: nowrap;
 }
@@ -160,7 +160,7 @@ nav {
   padding-top: 13rem;
   opacity: 0.3;
   animation: bounce 2s infinite ease;
-  animation-delay: 2s;
+  animation-delay: 2.2s;
 }
 
 @media only screen and (max-width: 750px) {
