@@ -385,6 +385,7 @@ footer p {
     margin-bottom: 3em;
     padding-bottom: 1em;
     padding-right: 2rem;
+    text-align: center;
   }
   .project img {
     margin-top: -2em;
