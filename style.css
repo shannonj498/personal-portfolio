@@ -226,7 +226,7 @@ nav {
 .project {
   color: black;
   width: 23%;
-  height: 25em;
+  height: 24em;
   background-color: white;
   padding: 0 2em 0 2em;
   border-radius: 5px;
@@ -243,7 +243,7 @@ nav {
   background-color: white;
   box-shadow: 8px 8px 25px rgba(80, 80, 80, 0.4);
   margin-top: -6em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   transition: background-color 0.2s ease-in-out;
 }
 
